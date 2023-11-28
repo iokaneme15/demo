@@ -1,0 +1,88 @@
+h1 {
+    text-align: center;
+    color: darkolivegreen;
+}
+
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+tr {
+    text-align: center;
+}
+
+.container {
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#calendar {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#calendar th,
+#calendar td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+#calendar td:hover {
+    background-color: goldenrod;
+}
+
+textarea {
+    width:  100%;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: cadetblue;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: chocolate;
+}
+
+.dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+#calendar td.selected {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+}

@@ -1,0 +1,31 @@
+<!-- Random Password Generator
+Requirements: 
+Length
+Characters
+- capitals
+- lowercases
+- special character
+- number -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="mainS.css"/>
+
+</head>
+<body class="passBody">
+    <div class="container">
+        <h1>Password Generator</h1>
+        <form id="passForm">
+            <label for="passGen">Password Length:</label>
+            <input type="number" id="passGen" min="1" max="50" required/>
+            <button type="button" onclick="generatePass()">Generate</button>
+            <input type="text" id="generatedPass" readonly />
+        </form>
+    </div>
+    <script src="mainJS.js"></script>
+</body>
+</html>
