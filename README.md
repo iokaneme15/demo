@@ -1,3 +1,2 @@
 # demo
-Course Careers demo repo
-this is a change
+Course Careers demo repository
