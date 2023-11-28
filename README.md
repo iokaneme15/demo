@@ -1,2 +1,2 @@
 # demo
-Course Careers demo repo
+Course Careers demo repository
